@@ -1,0 +1,82 @@
+*{
+  margin: auto;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  text-decoration:none;
+  list-stylesheet: none;
+}
+body{
+  margin-top: 60px;
+  font-family: 'Raleway', sans-serif;
+}
+nav{
+  margin: auto;
+  width: 800 px;
+  height: 150px;
+  text-align: center;
+  background-color: #002966;
+}
+nav a{
+  color: white;
+  font-size: 24px;
+  margin-left: 0;
+  margin-top: 0;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  margin-top: 60px;
+  text-align: center;
+}
+.form-inline{
+  margin-top: 60px;
+}
+.mw-100{
+  max-width: 100%;
+}
+.advantages_container{
+  display:flex;
+  justify-content: center;
+}
+.advantages{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.advantages-item{
+  width: 30%;
+}
+footer{
+  width: 100%;
+  height: auto;
+  background: #002966;
+  margin: 0 auto;
+  padding-top: 15px;
+  text-align: center;
+}
+footer a{
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.social img{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.logofooter{
+  justify-content: center;
+}
+footer nav{
+  height: 40px;
+}
